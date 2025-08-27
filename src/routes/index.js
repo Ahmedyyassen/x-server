@@ -1,0 +1,15 @@
+import { Router } from "express";
+import authRoutes from "./auth.routes.js";
+import userRoutes from "./user.routes.js";
+import postRoutes from "./post.routes.js";
+import commentRoute from "./comment.route.js";
+import notificationRoute from "./notification.route.js";
+import conversationRoute from "./conversation.route.js";
+const router = Router();
+authRoutes(router);
+userRoutes(router);
+postRoutes(router);
+commentRoute(router);
+notificationRoute(router);
+conversationRoute(router);
+export default router;
