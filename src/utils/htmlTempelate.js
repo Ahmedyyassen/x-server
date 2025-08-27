@@ -91,7 +91,7 @@ export const welcomeTemplate = (fullName) => {
         </div>
 
         <h2 style="color:#0f1419;margin-bottom:8px;font-size:22px;">
-          Welcome to X, ${username} 👋
+          Welcome to X, ${fullName} 👋
         </h2>
 
         <p style="color:#536471;font-size:15px;line-height:1.5;margin-bottom:24px;">
